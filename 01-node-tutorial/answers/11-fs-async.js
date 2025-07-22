@@ -13,12 +13,12 @@ readFile('./content/first.txt', 'utf8', (err, result) => {
         }
         const second = result;
         writeFile(
-            './content/result-async.txt',
+            './temporary/fileA.txt',
             `Here is the result: ${first}, ${second}`,
             {flag: 'a'},
             (err, result) => {
                 if (err) {
-                    console.log(err);
+                    console.log(`Error reading the first file ${err}`);
                     return;
                 }
                 console.log('done with this task');

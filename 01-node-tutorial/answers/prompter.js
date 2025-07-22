@@ -22,7 +22,7 @@ const getBody = (req, callback) => {
 
 // here, you could declare one or more variables to store what comes back from the form.
 
-let item = "Enter your number below.";
+let item = "Enter your number below (1-100).";
 
 // here, you can change the form below to modify the input fields and what is displayed.
 // This is just ordinary html with string interpolation.

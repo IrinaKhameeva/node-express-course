@@ -1,0 +1,22 @@
+{
+  "name": "answers",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Irina",
+  "type": "commonjs",
+  "main": "01-intro.js",
+
+  "scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "dev": "nodemon 10-fs-sync.js",
+  "start": "node prompter.js"
+  },
+
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
