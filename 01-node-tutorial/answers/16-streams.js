@@ -1,8 +1,7 @@
-console.log('Welcome to Node Tutorial')
 const {createReadStream} = require('fs');
 
 const stream = createReadStream('./content/big.txt',{ 
-    highWaterMarc:90000,
+    highWaterMarc:200,
     encoding: 'utf8'});
 
 stream.on('data', (result) => {
