@@ -1,0 +1,1 @@
+console.log('Hello, it is my first Node.js app!');
